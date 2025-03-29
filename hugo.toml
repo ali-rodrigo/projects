@@ -1,3 +1,8 @@
-baseURL = 'https://example.org/'
+baseURL = "https://alirodrigo.com/"
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Ali Rodrigo'
+theme = "hugo-theme-gallery"
+
+[params]
+  description = "Galería de fotografías de Ali Rodrigo"
+  copyright = "© 2025 Ali Rodrigo"
