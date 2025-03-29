@@ -1,4 +1,4 @@
-baseURL = "https://alirodrigo.com/"
+baseURL = "https://ali-rodrigo.github.io/projects/"
 languageCode = 'en-us'
 title = 'Ali Rodrigo'
 theme = "hugo-theme-gallery"
