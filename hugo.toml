@@ -1,6 +1,6 @@
 baseURL = "https://ali-rodrigo.github.io/projects/"
-languageCode = 'en-us'
-title = 'Ali Rodrigo'
+languageCode = "es"
+title = "Ali Rodrigo"
 theme = "hugo-theme-gallery"
 
 [params]
