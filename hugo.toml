@@ -1,8 +1,37 @@
+copyright = "© Ali Rodrigo"
 baseURL = "https://alirodrigo.com/"
 languageCode = "en-us"
 title = "Ali Rodrigo"
 theme = "hugo-theme-gallery"
+defaultContentLanguage = "en"
+disableKinds = ["taxonomy"]
+enableRobotsTXT = true
 
 [params]
+  defaultTheme = "dark"
   description = "Galería de fotografías de Ali Rodrigo"
+  title = "Projects"
   copyright = "© 2025 Ali Rodrigo"
+  [params.author]
+    email = "yo@alirodrigo.com"
+    name = "Ali Rodrigo"
+  [params.socialIcons]
+    facebook = "https://www.facebook.com/"
+    instagram = "https://www.instagram.com/"
+    github = "https://github.com/nicokaiser/hugo-theme-gallery/"
+    youtube = "https://www.youtube.com/"
+    email = "mailto:user@example.com"
+    #website = "https://example.com"
+    #mastodon = "https://example.com"
+    #pixelfed = "https://example.com"
+    #mixcloud = "https://mixcloud.com"
+  [params.gallery]
+    #boxSpacing = 10
+    #targetRowHeight = 288
+    #targetRowHeightTolerance = 0.25
+
+[menu]
+  [[menu.footer]]
+    name = "GitHub"
+    url = "https://github.com/nicokaiser/hugo-theme-gallery/"
+    weight = 3
