@@ -1,13 +1,17 @@
 ---
-layout: page
-rss_ignore: true
-title: About
+title: "sobre mí"
 menu:
   main:
-    weight: 90
+    weight: 2
 ---
- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut porttitor, velit nec congue eleifend, est est hendrerit sapien, non facilisis elit tellus a lectus. Sed congue nec elit ut mattis. Donec elit arcu, fringilla non iaculis eu, posuere ac magna. Maecenas viverra ante quis nisl sodales, ut malesuada neque pulvinar. In nec elementum erat, nec venenatis lorem. Mauris elementum consequat ex sit amet pellentesque. Sed et lorem vel ante maximus finibus ut in risus. Mauris tortor mi, faucibus ac consectetur sit amet, dictum vitae dolor. Cras finibus risus urna, eu aliquam metus auctor in. Suspendisse venenatis enim id rhoncus condimentum. Proin et velit a lectus sollicitudin elementum. Aliquam nibh neque, commodo nec mattis vitae, lobortis sit amet libero.
+Escribo esto para dejar un pequeño rastro de mí y compartir este espacio que hice con tanto amor.
 
-Curabitur id lobortis urna, et feugiat odio. Proin volutpat nisi et maximus eleifend. Cras semper eleifend justo, nec commodo elit pulvinar nec. In porta risus eget mauris tempor, in blandit arcu feugiat. Quisque est purus, consectetur sed semper vel, posuere id tortor. Vestibulum tellus odio, porttitor nec rutrum ac, varius eu nulla. Sed volutpat aliquet nunc sit amet pulvinar. Sed vitae risus vel augue porttitor maximus. Etiam tristique eu lacus et tempus. Nam euismod neque non orci gravida, non lobortis felis commodo. Aliquam leo turpis, dignissim eu orci a, efficitur imperdiet dui.
+Clasifiqué este material para que recorras mi visión de lo que suelo capturar. Procuro llevar una cámara en el bolsillo o en la mochila; no por costumbre, sino por necesidad. Amo las máquinas que capturan recuerdos, sin importar su forma, su marca o su tiempo.
 
-In faucibus libero vulputate gravida sodales. Pellentesque interdum nisl tellus, ac feugiat ligula finibus vel. Integer a odio sit amet est efficitur facilisis a a eros. Sed erat risus, vestibulum a tincidunt sed, consectetur in massa. Nunc tristique ante a risus pellentesque, porttitor vehicula purus mollis. Morbi venenatis vulputate lectus, non posuere nunc facilisis et. Nullam dolor massa, faucibus ac metus sit amet, imperdiet malesuada dolor. Fusce sit amet hendrerit ex, ac scelerisque magna. Aenean vehicula eu odio vitae facilisis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+Los recuerdos viven en papel, en lámina o en un rincón de bits proyectado en píxeles. No importa dónde estén. Soy un guardián obsesivo de la nostalgia, calles, cuerpos, retratos y paisajes, sombras y luz. Y entre todo ello, mi andar errante, sin juicio ni beneficio.
+
+Me gusta el orden, pero amo perderme en mi propio caos. Mi vida es una contradicción que se resiste y se entrega a la libertad a dejar ir al vació, dejo entrar la luz sin olvidar la sombra. Y entre tanto, sigo componiendo imágenes, porque es mi forma de existir.
+
+![Mi Foto](/images/about_yo.jpeg "Calle Madero, Aguascalientes Marzo 2025.")
+
+[yo@alirodrigo.com](mailto:yo@alirodrigo.com)

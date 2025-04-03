@@ -1,8 +1,7 @@
 ---
-description: Inspiracion e ideas.
-title: Projects
+title: Proyectos
 menus:
   main:
-    name: Home
+    name: inicio
     weight: -1
 ---

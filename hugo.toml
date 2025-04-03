@@ -16,22 +16,18 @@ enableRobotsTXT = true
     email = "yo@alirodrigo.com"
     name = "Ali Rodrigo"
   [params.socialIcons]
-    facebook = "https://www.facebook.com/"
-    instagram = "https://www.instagram.com/"
-    github = "https://github.com/nicokaiser/hugo-theme-gallery/"
-    youtube = "https://www.youtube.com/"
-    email = "mailto:user@example.com"
-    #website = "https://example.com"
-    #mastodon = "https://example.com"
-    #pixelfed = "https://example.com"
-    #mixcloud = "https://mixcloud.com"
+    instagram = "https://www.instagram.com/alirodrigo_"
+    github = "https://github.com/ali-rodrigo"
+    youtube = "https://www.youtube.com/@alimalsoul"
+    email = "mailto:yo@alirodrigo.com"
+    #website = "https://alirodrigo.com"
   [params.gallery]
     #boxSpacing = 10
     #targetRowHeight = 288
     #targetRowHeightTolerance = 0.25
 
 [menu]
-  [[menu.footer]]
-    name = "GitHub"
-    url = "https://github.com/nicokaiser/hugo-theme-gallery/"
-    weight = 3
+  [[menu.main]]
+    identifier = "about"
+    url = "/about/"
+    weight = 2
