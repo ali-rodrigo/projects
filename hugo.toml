@@ -1,4 +1,4 @@
-copyright = "© Ali Rodrigo"
+copyright = "© 2025 Ali Rodrigo"
 baseURL = "https://alirodrigo.com/"
 languageCode = "en-us"
 title = "Ali Rodrigo"
@@ -21,6 +21,7 @@ enableRobotsTXT = true
     youtube = "https://www.youtube.com/@alimalsoul"
     email = "mailto:yo@alirodrigo.com"
     #website = "https://alirodrigo.com"
+    twitter = "https://x.com/alimalsoul"
   [params.gallery]
     #boxSpacing = 10
     #targetRowHeight = 288
@@ -28,6 +29,18 @@ enableRobotsTXT = true
 
 [menu]
   [[menu.main]]
-    identifier = "about"
-    url = "/about/"
+    name = "blog"
+    url = "/blog/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "galeria"
+    name = "galeria"
+    url = "/gallery/"
     weight = 2
+
+  [[menu.main]]
+    identifier = "shop"
+    name = "shop"
+    url = "/shop/"
+    weight = 3
