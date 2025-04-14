@@ -9,9 +9,12 @@
   <div class="intro">
     <h1>{{ .Title }}{{ if .Site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
     {{ if .Site.Params.showIntroContentOnHomepage}}
-      <div class="intro-content">{{ .Content }}</div>
+      {{/*  <div class="intro-content">{{ .Content }}</div>  */}}
     {{ end }}
   </div>
+
+    {{/* Tu galería aleatoria */}}
+    {{ partial "home-gallery.html" . }}
 
   {{ if .Site.Params.showPostsOnHomepage }}
 

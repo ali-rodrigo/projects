@@ -1,0 +1,22 @@
+<section class="gallery">
+    <div id="random-gallery" class="gallery-grid">
+      {{ $images := readDir "static/images/placeholders" }}
+      {{ range $i, $img := $images }}
+        <img
+          class="gallery-img"
+          src="/images/placeholders/{{ $img.Name }}"
+          alt="{{ $img.Name }}"
+          loading="lazy"
+          style="display: none;"
+        >
+      {{ end }}
+    </div>
+  </section>
+  
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const allImages = Array.from(document.querySelectorAll(".gallery-img"));
+      const randomImages = allImages.sort(() => 0.5 - Math.random()).slice(0, 10);
+      randomImages.forEach(img => img.style.display = "block");
+    });
+  </script>
