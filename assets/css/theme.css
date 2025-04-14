@@ -58,3 +58,14 @@ body {
     from { transform: scale(0.96); opacity: 0; }
     to { transform: scale(1); opacity: 1; }
   }
+
+  .footer-social svg {
+    width: 24px;
+    height: 24px;
+    color: #2E2E2E;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-social svg:hover {
+    color: #FF0000;
+  }
