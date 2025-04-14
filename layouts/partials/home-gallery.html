@@ -13,10 +13,55 @@
     </div>
   </section>
   
+  <!-- Lightbox container -->
+<div id="lightbox-overlay">
+    <img id="lightbox-image" src="" alt="">
+  </div>
+  
   <script>
     document.addEventListener("DOMContentLoaded", function () {
+      // Galería aleatoria existente
       const allImages = Array.from(document.querySelectorAll(".gallery-img"));
       const randomImages = allImages.sort(() => 0.5 - Math.random()).slice(0, 10);
-      randomImages.forEach(img => img.style.display = "block");
+  
+      randomImages.forEach(img => {
+        img.style.display = "block";
+  
+        function checkAspect() {
+          const aspect = img.naturalWidth / img.naturalHeight;
+          if (aspect >= (15 / 9)) {
+            img.classList.add("span-full");
+          }
+        }
+  
+        if (img.complete) {
+          checkAspect();
+        } else {
+          img.onload = checkAspect;
+        }
+  
+        // Lightbox behavior
+        img.addEventListener("click", () => {
+          const lightbox = document.getElementById("lightbox-overlay");
+          const lightboxImg = document.getElementById("lightbox-image");
+          lightboxImg.src = img.src;
+          lightbox.style.display = "flex";
+        });
+      });
+  
+      // Cerrar lightbox
+      const overlay = document.getElementById("lightbox-overlay");
+      overlay.addEventListener("click", () => {
+        overlay.style.display = "none";
+        document.getElementById("lightbox-image").src = "";
+      });
+  
+      // ESC para cerrar
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") {
+          overlay.style.display = "none";
+          document.getElementById("lightbox-image").src = "";
+        }
+      });
     });
   </script>
