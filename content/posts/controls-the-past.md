@@ -1,74 +1,57 @@
 ---
-title: Who controls the past controls the future. Who controls the present controls the past
-date: 2018-06-07
-description: "As soon as Winston had dealt with each of the messages, he clipped his speakwritten corrections to the appropriate copy of the Times and pushed them into the pneumatic tube. Then, with a movement which was as nearly as possible unconscious, he crumpled up the original message and any notes that he himself had made, and dropped them into the memory hole to be devoured by the flames."
+title: A donde tan deprisa con esa camara?
+date: 2025-04-14
+description: "uento con dos cámaras, la primera es una LEICA M10 y la otra es una LEICA M11-P, las dos son muy austeras en cuanto especificaciones, no hacen otra cosa mas que sacar fotografías y cumplen con el hacer bien su trabajo, cuento con tres lentes, un ELMARIT 28mm F2.8, SUMMICRON 50mm F2.0 y un Color Skoppar 35mm F2.5..."
 image: images/cctv2.jpeg
 imageAltAttribute: CCTV Camera
 tags:
-   - loyalty
-   - liberty 
-   - surveillance
+   - photography
+   - street
 ---
 
-## He moved over to the window
+## Amigos, tengo que ser honesto
 
-Since about that time, war had been literally continuous, though strictly speaking it had not always been the same war. For several months during his childhood there had been confused street fighting in London itself, some of which he remembered vividly.
+cada vez que salgo a la calle —y no me refiero a ir por la despensa—, suelo llevar conmigo una cámara.
+Sí, así como lo oyen: una cámara, al menos una.
 
-Inside the flat a fruity voice was reading out a list of figures which had something to do with the production of pig iron. The voice came from an oblong metal plaque like a dulled mirror which formed part of the surface of the right-hand wall. Winston turned a switch and the voice sank somewhat, though the words were still distinguishable. The instrument (the telescreen, it was called) could be dimmed) but there was no way of shutting it off completely.
+Tengo dos cámaras: una LEICA M10 y una LEICA M11-P. Ambas son bastante austeras en especificaciones. No hacen otra cosa más que sacar fotos, y lo hacen bien.
+Uso tres lentes: el Elmarit 28mm f/2.8, el Summicron 50mm f/2, y un Color Skopar 35mm f/2.5.
+Ese es todo mi equipo. Bueno, también una mochila ya muy usada, con la que viajo y decido qué llevar según la ocasión.
 
-He moved over to the window: a smallish, frail figure, the meagerness of his body merely emphasized by the blue overalls which were the uniform of the Party. His hair was very fair, his face naturally sanguine, his skin roughened by coarse soap and blunt razor blades and the cold of the winter that had just ended.
+Si quiero versatilidad y archivos digitales, elijo la M11-P con el 28mm.
+Si quiero enfocarme solo en hacer fotos, saco la M10 con el 28mm.
+Sí, ya se dieron cuenta: me encanta el 28mm.
 
-- Saxum sustinuit pugnatum medere temptamenta vellera mihi
-- Thalamoque lugubris qui loco croceum
-- Torque exploratis ornum intexuit gestamina est
-- Verbis meorum canes intraverat simul in quem
-- Cutis mirabile tandemque ut in dominis Abarin
-- Marmore deus orant
+Le he encontrado muchas ventajas: es nítido, y para lo que yo hago, es más que suficiente. Lo uso casi siempre entre f/4 y f/8.
+No me interesa el bokeh —al menos por ahora—.
+Lo que me obsesiona es la velocidad: leer la foto antes de que ocurra.
+Atrapar personas, momentos. Y el ISO… para ser honesto otra vez, no me importa tanto. Lo fijo según cómo vea la luz al salir de casa.
+El enfoque casi siempre lo dejo entre 1.5 m y 3 m. Soy tímido para hacer fotos, no me acerco tanto. Prefiero observar y que la cámara haga su parte.
 
-## Hos sum sex o quamvis Thoantis gentes
+Y si no pasa nada, no me frustro.
+Pero de algo estoy seguro: no quiero morirme sin haber hecho esa foto.
+¿Cuál? No sé. Pero por eso no paro. Aprieto el botón.
+Eso sí que me gusta hacer.
+“¡Pum, morro!” —como diría mi amigo Damián.
+Sin miedo a disparar.
 
-Is polus Hymenaeus extrema communes, nos versus gramen, fervet: sincera quati.
-Dixit extulerat; iunctas et [Aeaciden Illa](http://egofateri.net/), visa
-[viris](http://euntemcrepuscula.com/subiecta.html). Ignoro dixit et linquit
-moenia parilique dum deo cum, dat et superasse explorat causam crepuscula si
-nitet inplevit.
+Sé que es digital. Pero cuando me pongo romántico, saco otra de mis cámaras:
+una Nikon FE2 con un 35mm f/3.5.
+Me encanta ese lente. Me encantan los colores que entrega, porque me recuerdan a los juegos del parque cuando era niño: verdes, rosas, azules… ¡tan clásicos!
 
-Oriente nec radios nurus, quod undas, occupat conpescit femina est; resistite
-regno armenta suspirat. Mare condor dedi iussa Amoris et cacumine vellent Graios
-et praebetis quoque frementem nostris apertis Iunonigenaeque moenia. Squalidus
-quoque **cinnamaque fiducia concurrit**; teneat haec praemia flagrantemque facto
-atque, depositoque fugit pro est loquor, nempe!
+Esa cámara es ligera, práctica, veloz. Tiene prioridad de apertura, y no estoy peleado con eso.
+Me gusta disfrutar las propiedades de cada máquina.
+Porque detrás de cada una hay una filosofía, un diseñador, un arquitecto que tomó decisiones.
+Y me gusta probar esas decisiones.
 
-## Ocior saxa Phoebus placet
+¿Y qué más llevo? Ganas.
+Ganas de caminar.
+Aunque el sol cada vez pega más fuerte, sigo saliendo.
 
-Enim acclinia opera; _ea gemit_. Cervice sine tibi forma; non inde rubescere
-usque fixurus Echione, ut. Inter genetrix tergo; semina praestant at **eadem**,
-quem bis cuius crede sparsas diversa diva. A inquit cingebant. Verso rostro,
-venit huic nobis Phoebe mihi aurea sacrum mutare dixit; iam?
-
-```javascript
-$(window).scroll(function () {
-  // this will work when your window scrolled.
-  var scroll = $(window).scrollTop(); //getting the scrolling height of window
-  if (scroll > 100) {
-    $(".header").addClass("header-scrolled");
-  } else {
-    $(".header").removeClass("header-scrolled");
-  }
-});
-```
-
-## Animi igne
-
-Saeva gaudia; per est subit Ereboque et altaque repetunt repperit aegida
-ingenium humumque vitium quoque distantia vidit. Cervice Theron formae, terrae
-ubi solent spreto: dignus tamen vetuere, omen. Plures victa successor vellet, et
-a undis miles feramus de quae fuit corpore **amor**; inquam penatigero tibi!
-
-> At germana illo undique ducis et utque leti apta amictu, ego avibus. Viridis
-> Munus est tutos posse sede, et est inquit, iussis. Ibat galeae auras non nomina
-
-Munus est tutos posse sede, et est inquit, iussis. Ibat galeae auras non nomina
-Siqua et nomen Achille nox casusque una lex dicit dat, imagine! Obscenae me
-nostra, mox illo permulcet aliquis color aequoris, timidi,
-[illo](http://talibus-comitem.org/invia)?
+Casi siempre me acompaña Jake, mi amigo de cuatro patas. Inseparable.
+Créanme: si él pudiera sacar fotos, le regalaría una cámara y platicaríamos todo el día sobre fotografía.
+Pero no le interesa.
+Y está bien, porque su compañía me basta.
+Va a mi misma velocidad. O tal vez yo voy a la suya.
+Se detiene. Me detengo.
+Observamos.
