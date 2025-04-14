@@ -1,46 +1,69 @@
-copyright = "© 2025 Ali Rodrigo"
-baseURL = "https://alirodrigo.com/"
+baseURL = "/"
 languageCode = "en-us"
-title = "Ali Rodrigo"
-theme = "hugo-theme-gallery"
-defaultContentLanguage = "en"
-disableKinds = ["taxonomy"]
-enableRobotsTXT = true
+theme = "hugo-winston-theme"
+themesDir = "themes"
+title = "Proyectos"
+[pagination]
+  pagerSize = 6
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClasses = true
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
 
 [params]
-  defaultTheme = "dark"
-  description = "Galería de fotografías de Ali Rodrigo"
-  title = "Projects"
-  copyright = "© 2025 Ali Rodrigo"
-  [params.author]
-    email = "yo@alirodrigo.com"
-    name = "Ali Rodrigo"
-  [params.socialIcons]
-    instagram = "https://www.instagram.com/alirodrigo_"
-    github = "https://github.com/ali-rodrigo"
-    youtube = "https://www.youtube.com/@alimalsoul"
-    email = "mailto:yo@alirodrigo.com"
-    #website = "https://alirodrigo.com"
-    twitter = "https://x.com/alimalsoul"
-  [params.gallery]
-    #boxSpacing = 10
-    #targetRowHeight = 288
-    #targetRowHeightTolerance = 0.25
+  google_analytics_id = ""
+  twitter_handle = "@zerostaticio"
+  showAuthorOnHomepage = true
+  showAuthorOnPosts = false
+  showIntroContentOnHomepage = true
+  showPostsOnHomepage = false
+  usePaginationOnHomepage = false
+  limitPostsOnHomepage = 3 # only used if usePaginationOnHomepage is false
+  sortPostsByDateOldestFirst = false
+  addDot = true
+  addFrame = true
+  highlightColor = '#2E2E2E'
+  baseColor = "#ffffff"
+  baseOffsetColor = "#FF3CAC"
+  headingColor = "#2E2E2E"
+  textColor = "#555555"
+  dotColor = "#FF0000"
+  enableGoogleFonts = true 
+  googleFontsUrl = "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+  fontFamilyHeading = "Poppins"
+  fontFamilyParagraph = "Helvetica"
+  fontFamilyMonospace = "monospace"
+
+# markdown config settings https://gohugo.io/getting-started/configuration-markup/#goldmark
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
 
 [menu]
   [[menu.main]]
-    name = "blog"
-    url = "/blog/"
+    identifier = 'home'
+    name = 'Home'
+    url = '/'
     weight = 1
-
   [[menu.main]]
-    identifier = "galeria"
-    name = "galeria"
-    url = "/gallery/"
+    name = "Blog"
+    identifier = "blog"
     weight = 2
-
+    url = "/posts/"
   [[menu.main]]
-    identifier = "shop"
-    name = "shop"
-    url = "/shop/"
+    name = "About"
+    identifier = "about"
     weight = 3
+    url = "/About/"
+  [[menu.main]]
+    name = "Tags"
+    identifier = "tags"
+    weight = 4
+    url = "/tags/"
