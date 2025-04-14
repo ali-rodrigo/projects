@@ -1,19 +1,19 @@
 {
   "links": [
     {
-      "name": "twitter",
-      "url": "https://twitter.com/zerostaticio",
-      "image": "images/social/twitter.svg"
+      "name": "X",
+      "url": "https://x.com/alimalsoul",
+      "image": "images/social/x.svg"
     },
     {
       "name": "github",
-      "url": "https://github.com/zerostaticthemes/hugo-winston-theme",
+      "url": "https://github.com/ali-rodrigo",
       "image": "images/social/github.svg"
     },
     {
-      "name": "linkedin",
-      "url": "https://www.linkedin.com",
-      "image": "images/social/linkedin.svg"
+      "name": "instagram",
+      "url": "https://www.instagram.com/alirodrigo_/",
+      "image": "images/social/instagram.svg"
     }
   ]
 }
