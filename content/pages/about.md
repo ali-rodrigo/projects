@@ -4,7 +4,7 @@ url: "/about/"
 image: images/about.jpg
 ---
 
-## Escribo esto para dejar un pequeño rastro de mí y compartir este espacio que hice con tanto amor.
+## Escribo esto para dejar un pequeño rastro de mí y compartir este espacio que hice con tanto amor
 
 Clasifiqué este material para que recorras mi visión de lo que suelo capturar. Procuro llevar una cámara en el bolsillo o en la mochila; no por costumbre, sino por necesidad. Amo las máquinas que capturan recuerdos, sin importar su forma, su marca o su tiempo.
 
