@@ -1,71 +1,83 @@
 body {
-    background: #F7F7F2 !important;
-  }
-  
-  .gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1rem;
-    padding: 2rem;
-  }
-  
-  .gallery-img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    border: 4px solid white;
-    background-color: #1A1A1A;
-    transition: transform 0.3s ease;
-  }
-  
-  .gallery-img:hover {
-    transform: scale(1.03);
-  }
+  background: #F7F7F2 !important;
+}
 
-  .gallery-img.span-full {
-    grid-column: 1 / -1;
-  }
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+}
 
-  /* Lightbox container */
+.gallery-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border: 4px solid white;
+  background-color: #1A1A1A;
+  transition: transform 0.3s ease;
+}
+
+.gallery-img:hover {
+  transform: scale(1.03);
+}
+
+.gallery-img.span-full {
+  grid-column: 1 / -1;
+}
+
+/* Lightbox container */
 #lightbox-overlay {
-    display: none;
-    position: fixed;
-    z-index: 9999;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.85);
-    justify-content: center;
-    align-items: center;
-    animation: fadeIn 0.3s ease forwards;
-  }
-  
-  /* The full image */
-  #lightbox-overlay img {
-    max-width: 95%;
-    max-height: 95%;
-    object-fit: contain;
-    border: 4px solid white;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-    animation: zoomIn 0.3s ease forwards;
-  }
-  
-  /* Animations */
-  @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-  }
-  
-  @keyframes zoomIn {
-    from { transform: scale(0.96); opacity: 0; }
-    to { transform: scale(1); opacity: 1; }
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 0.3s ease forwards;
+}
+
+/* The full image */
+#lightbox-overlay img {
+  max-width: 95%;
+  max-height: 95%;
+  object-fit: contain;
+  border: 4px solid white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  animation: zoomIn 0.3s ease forwards;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
   }
 
-  .footer-social svg {
-    width: 24px;
-    height: 24px;
-    color: #2E2E2E;
-    transition: color 0.3s ease;
+  to {
+    opacity: 1;
   }
-  
-  .footer-social svg:hover {
-    color: #FF0000;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.96);
+    opacity: 0;
   }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.footer-social svg {
+  width: 24px;
+  height: 24px;
+  color: #2E2E2E;
+  transition: color 0.3s ease;
+}
+
+.footer-social svg:hover {
+  color: #FF0000;
+}

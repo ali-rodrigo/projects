@@ -1,75 +1,70 @@
 <section class="gallery">
-    <div id="random-gallery" class="gallery-grid">
-      {{ $images := readDir "static/images/placeholders" }}
-      {{ range $i, $img := $images }}
-        <img
-          class="gallery-img"
-          src="/images/placeholders/{{ $img.Name }}"
-          alt="{{ $img.Name }}"
-          loading="lazy"
-          style="display: none;"
-        >
-      {{ end }}
-    </div>
-  </section>
-  
-  <!-- Lightbox container -->
-<div id="lightbox-overlay">
-    <img id="lightbox-image" src="" alt="">
+  <div id="random-gallery" class="gallery-grid">
+    {{ $images := readDir "static/images/placeholders" }}
+    {{ range $i, $img := $images }}
+    <img class="gallery-img" src="/images/placeholders/{{ $img.Name }}" alt="{{ $img.Name }}" loading="lazy"
+      style="display: none;">
+    {{ end }}
   </div>
-  
-  <script>
-    function shuffle(array) {
-      for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
-      }
-      return array;
+</section>
+
+<!-- Lightbox container -->
+<div id="lightbox-overlay">
+  <img id="lightbox-image" src="" alt="">
+</div>
+
+<script>
+  function shuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
     }
-  
-    document.addEventListener("DOMContentLoaded", function () {
-      // Galería aleatoria mejorada
-      const allImages = Array.from(document.querySelectorAll(".gallery-img"));
-      const randomImages = shuffle(allImages).slice(0, 10); // ¡aquí usamos el nuevo shuffle!
-  
-      randomImages.forEach(img => {
-        img.style.display = "block";
-  
-        function checkAspect() {
-          const aspect = img.naturalWidth / img.naturalHeight;
-          if (aspect >= (15 / 9)) {
-            img.classList.add("span-full");
-          }
+    return array;
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    // Galería aleatoria mejorada
+    const allImages = Array.from(document.querySelectorAll(".gallery-img"));
+    const randomImages = shuffle(allImages).slice(0, 10); // ¡aquí usamos el nuevo shuffle!
+
+    randomImages.forEach(img => {
+      img.style.display = "block";
+
+      function checkAspect() {
+        const aspect = img.naturalWidth / img.naturalHeight;
+        if (aspect >= (15 / 9)) {
+          img.classList.add("span-full");
         }
-  
-        if (img.complete) {
-          checkAspect();
-        } else {
-          img.onload = checkAspect;
-        }
-  
-        // Lightbox behavior
-        img.addEventListener("click", () => {
-          const lightbox = document.getElementById("lightbox-overlay");
-          const lightboxImg = document.getElementById("lightbox-image");
-          lightboxImg.src = img.src;
-          lightbox.style.display = "flex";
-        });
-      });
-  
-      // Cerrar lightbox
-      const overlay = document.getElementById("lightbox-overlay");
-      overlay.addEventListener("click", () => {
-        overlay.style.display = "none";
-        document.getElementById("lightbox-image").src = "";
-      });
-  
-      // ESC para cerrar
-      document.addEventListener("keydown", (e) => {
-        if (e.key === "Escape") {
-          overlay.style.display = "none";
-          document.getElementById("lightbox-image").src = "";
-        }
+      }
+
+      if (img.complete) {
+        checkAspect();
+      } else {
+        img.onload = checkAspect;
+      }
+
+      // Lightbox behavior
+      img.addEventListener("click", () => {
+        const lightbox = document.getElementById("lightbox-overlay");
+        const lightboxImg = document.getElementById("lightbox-image");
+        lightboxImg.src = img.src;
+        lightbox.style.display = "flex";
       });
     });
-  </script>
+
+    // Cerrar lightbox
+    const overlay = document.getElementById("lightbox-overlay");
+    overlay.addEventListener("click", () => {
+      overlay.style.display = "none";
+      document.getElementById("lightbox-image").src = "";
+    });
+
+    // ESC para cerrar
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") {
+        overlay.style.display = "none";
+        document.getElementById("lightbox-image").src = "";
+      }
+    });
+  });
+</script>
