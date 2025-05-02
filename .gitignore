@@ -1,5 +1,7 @@
 # Ignorar el public
 public/
+# Ignorar el public
+resources/
 # Ignorar archivos ocultos de macOS
 .DS_Store
 # Por si subes carpetas desde GUI de Finder que agregan metadatos
