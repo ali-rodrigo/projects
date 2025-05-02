@@ -131,3 +131,21 @@ body {
 .footer-copyright a:hover {
   color: var(--dot-color);
 }
+
+@media (max-width: 400px) {
+  .intro h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    padding: 1rem;
+    gap: 0.5rem;
+  }
+
+  .footer-social {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
