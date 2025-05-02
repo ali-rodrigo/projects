@@ -1,8 +1,7 @@
 ---
 title: A donde tan deprisa con esa camara?
 date: 2025-04-14
-description: "Cuento con dos cámaras. La primera es una LEICA M10 y la otra una LEICA M11-P. Las dos son muy austeras en cuanto a especificaciones: no hacen otra cosa más que sacar fotografías. Pero lo hacen bien, y con eso basta.
-Uso tres lentes: un Elmarit 28mm f/2.8, un Summicron 50mm f/2, y un Color Skopar 35mm f/2.5. Eso es todo mi equipo fotográfico."
+description: "Cuento con dos cámaras. La primera es una LEICA M10 y la otra una LEICA M11-P. Las dos son muy austeras en cuanto a especificaciones: no hacen otra cosa más que sacar fotografías. Pero lo hacen bien, y con eso basta. Uso tres len... Leer más."
 image: images/post_1/L1007539.jpeg
 imageAltAttribute: Street
 tags:
@@ -102,3 +101,5 @@ Y que llevo dentro.
 Soy un callejero.
 O como mi papá me decía cuando era más joven:
 “Eres un andariego.”
+
+**Fotografia: La Mili*
