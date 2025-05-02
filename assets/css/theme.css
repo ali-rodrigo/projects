@@ -1,5 +1,5 @@
 body {
-  background: #F7F7F2 !important;
+  background: var(--base-color) !important;
 }
 
 .gallery-grid {
@@ -113,4 +113,21 @@ body {
   90% {
     filter: blur(0px);
   }
+}
+
+.footer-copyright {
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 2rem;
+  color: var(--text-color);
+  opacity: 0.8;
+}
+
+.footer-copyright a {
+  color: var(--highlight-color);
+  text-decoration: none;
+}
+
+.footer-copyright a:hover {
+  color: var(--dot-color);
 }
