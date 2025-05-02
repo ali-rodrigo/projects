@@ -43,7 +43,7 @@ body {
   max-width: 95%;
   max-height: 95%;
   object-fit: contain;
-  border: 4px solid white;
+  border: 20px solid white;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
   animation: zoomIn 0.3s ease forwards;
 }
@@ -79,5 +79,38 @@ body {
 }
 
 .footer-social svg:hover {
-  color: #FF0000;
+  color: var(--dot-color);
+}
+
+.summary-title a {
+  color: var(--base-offset-color);
+  text-decoration: none;
+  display: inline-block;
+  transition: filter 0.6s ease-in-out;
+  filter: blur(0px);
+}
+
+.summary-title a:hover {
+  animation: lens-focus 0.8s ease forwards;
+}
+
+@keyframes lens-focus {
+  0% {
+    filter: blur(4px);
+  }
+  20% {
+    filter: blur(0px);
+  }
+  40% {
+    filter: blur(3px);
+  }
+  80% {
+    filter: blur(0px);
+  }
+  90% {
+    filter: blur(2px);
+  }
+  90% {
+    filter: blur(0px);
+  }
 }
