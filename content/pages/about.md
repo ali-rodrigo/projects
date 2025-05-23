@@ -12,8 +12,9 @@ Me gusta el orden y figura, pero soy de andar errante. Mi vida es una contradicc
 
 ## Educación
 
+- Desde 2006 Fotografía / El barrio, MX
 - 2009 - 2013 Informática / ITTLA, Edomex MX
-- 2023 Dip. Cinematografía / Escuela Veracruzana de Cine Luis Buñuel, Veracruz MX
+- 2023 Cinematografía / Escuela Veracruzana de Cine Luis Buñuel, Veracruz MX
 
 ## FAQ‘s
 
