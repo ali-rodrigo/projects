@@ -2,7 +2,7 @@
 title: "De nuevo un principiante"
 date: 2025-05-02T22:22:53
 draft: false
-description: "Saben, esto de la inteligencia artificial me está gustando mucho. Como herramienta de aprendizaje hace un gran trabajo, y me ha ayudado a redescubrir temas que había postergado por flojera, desidia o simple distracción. Gracias a estas herramientas, he podido retomar muchos conocimientos que tenía pendien... Leer más."
+description: "Saben, esto de la inteligencia artificial me está gustando mucho. Como herramienta de aprendizaje hace un gran trabajo, y me ha ayudado a redescubrir temas que había postergado por flojera, desidia o simple distracción. Gracias a estas herramientas, he podido retomar muchos conocimientos que tenía pendien..."
 image: images/post_2/IMG_7409.jpeg
 tags:
    - photography
