@@ -1,7 +1,7 @@
 ---
 title: A donde tan deprisa con esa camara?
 date: 2025-04-14
-description: "Cuento con dos cámaras. La primera es una LEICA M10 y la otra una LEICA M11-P. Las dos son muy austeras en cuanto a especificaciones: no hacen otra cosa más que sacar fotografías. Pero lo hacen bien, y con eso basta. Uso tres len... Leer más."
+description: "Cuento con dos cámaras. La primera es una LEICA M10 y la otra una LEICA M11-P. Las dos son muy austeras en cuanto a especificaciones: no hacen otra cosa más que sacar fotografías. Pero lo hacen bien, y con eso basta. Uso tres lent..."
 image: images/post_1/L1007539.jpeg
 imageAltAttribute: Street
 tags:

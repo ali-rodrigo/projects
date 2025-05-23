@@ -27,10 +27,10 @@ pygmentsUseClasses = true
   headingColor = "#0D1C1E"
   textColor = "#0D1C1E"
   dotColor = "#730724"
-  enableGoogleFonts = true 
-  googleFontsUrl = "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-  fontFamilyHeading = "Poppins"
-  fontFamilyParagraph = "Helvetica"
+  enableGoogleFonts = true
+  googleFontsUrl = "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700;900&display=swap"
+  fontFamilyHeading = "DM Sans"
+  fontFamilyParagraph = "DM Sans"
   fontFamilyMonospace = "monospace"
 
 # markdown config settings https://gohugo.io/getting-started/configuration-markup/#goldmark
