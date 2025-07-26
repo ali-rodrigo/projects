@@ -6,6 +6,10 @@ h1 {
   font-weight: 900;
 }
 
+.menu-main li a span{
+  white-space: nowrap;   /* todo el texto en una línea */
+}
+
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

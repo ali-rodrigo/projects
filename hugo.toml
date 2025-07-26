@@ -44,7 +44,7 @@ pygmentsUseClasses = true
 [menu]
   [[menu.main]]
     identifier = 'home'
-    name = 'Gallery'
+    name = 'Random Gallery'
     url = '/'
     weight = 1
   [[menu.main]]

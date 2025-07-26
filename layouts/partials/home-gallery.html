@@ -2,10 +2,20 @@
   <div id="random-gallery" class="gallery-grid">
     {{ $images := readDir "static/images/placeholders" }}
     {{ range $i, $img := $images }}
-    <img class="gallery-img" src="/images/placeholders/{{ $img.Name }}" alt="{{ $img.Name }}" loading="lazy"
-      style="display: none;">
+      <img class="gallery-img"
+           src="/images/placeholders/{{ $img.Name }}"
+           alt="{{ $img.Name }}"
+           loading="lazy"
+           style="display:none;">
     {{ end }}
   </div>
+
+  <!-- Enlace centrado -->
+  <p class="gallery-refresh-wrapper">
+    <a id="gallery-refresh" class="gallery-refresh" href="#">
+      🔄 Swipe / Click / Reload the Randomness
+    </a>
+  </p>
 </section>
 
 <!-- Lightbox container -->
@@ -14,57 +24,84 @@
 </div>
 
 <script>
-  function shuffle(array) {
-    for (let i = array.length - 1; i > 0; i--) {
+  /* ---------- helpers ---------- */
+  const shuffle = (arr) => {
+    for (let i = arr.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
+      [arr[i], arr[j]] = [arr[j], arr[i]];
     }
-    return array;
-  }
+    return arr;
+  };
+  const setSpanIfPanoramic = (img) => {
+    const aspect = img.naturalWidth / img.naturalHeight;
+    if (aspect >= 15 / 9) img.classList.add('span-full');
+  };
 
-  document.addEventListener("DOMContentLoaded", function () {
-    // Galería aleatoria mejorada
-    const allImages = Array.from(document.querySelectorAll(".gallery-img"));
-    const randomImages = shuffle(allImages).slice(0, 10); // ¡aquí usamos el nuevo shuffle!
+  /* ---------- render gallery ---------- */
+  const renderRandomGallery = () => {
+    const all = Array.from(document.querySelectorAll('.gallery-img'));
+    const random50 = shuffle(all).slice(0, 50);
 
-    randomImages.forEach(img => {
-      img.style.display = "block";
+    all.forEach(img => {
+      img.style.display = 'none';
+      img.classList.remove('span-full');
+    });
 
-      function checkAspect() {
-        const aspect = img.naturalWidth / img.naturalHeight;
-        if (aspect >= (15 / 9)) {
-          img.classList.add("span-full");
-        }
-      }
+    random50.forEach(img => {
+      img.style.display = 'block';
+      img.complete ? setSpanIfPanoramic(img)
+                   : (img.onload = () => setSpanIfPanoramic(img));
+    });
+  };
 
-      if (img.complete) {
-        checkAspect();
-      } else {
-        img.onload = checkAspect;
-      }
+  /* ---------- lightbox ---------- */
+  const initLightbox = () => {
+    const overlay = document.getElementById('lightbox-overlay');
+    const bigImg  = document.getElementById('lightbox-image');
 
-      // Lightbox behavior
-      img.addEventListener("click", () => {
-        const lightbox = document.getElementById("lightbox-overlay");
-        const lightboxImg = document.getElementById("lightbox-image");
-        lightboxImg.src = img.src;
-        lightbox.style.display = "flex";
+    document.querySelectorAll('.gallery-img').forEach(img => {
+      img.addEventListener('click', () => {
+        bigImg.src = img.src;
+        overlay.style.display = 'flex';
       });
     });
 
-    // Cerrar lightbox
-    const overlay = document.getElementById("lightbox-overlay");
-    overlay.addEventListener("click", () => {
-      overlay.style.display = "none";
-      document.getElementById("lightbox-image").src = "";
-    });
+    const close = () => { overlay.style.display = 'none'; bigImg.src = ''; };
+    overlay.addEventListener('click', close);
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') close(); });
+  };
 
-    // ESC para cerrar
-    document.addEventListener("keydown", (e) => {
-      if (e.key === "Escape") {
-        overlay.style.display = "none";
-        document.getElementById("lightbox-image").src = "";
-      }
+  /* ---------- shuffle + scrollTop ---------- */
+  const initRefreshLink = () => {
+    const link = document.getElementById('gallery-refresh');
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      renderRandomGallery();                   // nuevas 50
+      window.scrollTo({ top: 0, behavior: 'instant' }); // ya arriba
     });
+  };
+
+  /* ---------- init ---------- */
+  document.addEventListener('DOMContentLoaded', () => {
+    renderRandomGallery();
+    initLightbox();
+    initRefreshLink();
   });
 </script>
+
+<style>
+  /* Enlace centrado */
+  .gallery-refresh-wrapper { text-align: center; }
+  .gallery-refresh {
+    display: inline-block;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    color: var(--highlight-color);
+    text-decoration: none;
+    opacity: 0.7;
+    transition: opacity 0.2s ease;
+    font-weight: 700;       /* negrita */
+    letter-spacing: 0.05em; /* un poco más de aire entre letras */
+  }
+  .gallery-refresh:hover { opacity: 1; }
+</style>
