@@ -3,10 +3,11 @@ title: 'Career'
 url: "/career/"
 ---
 
-## Ali Rodrigo LF
+## Ali Rodrigo López Fernández
 
-**Cloud Solutions Architect | Specialist in RPA, Backend, and DevOps**  
-📍 Aguascalientes / State of Mexico, Mexico  
+**Cloud Solutions Architect | Specialist DevOps**  
+
+📍 Santiago de Cali - Colombia / Estado de México - México.  
 📧 [yo@alirodrigo.com](mailto:yo@alirodrigo.com) | 📱 +52 55 1080 7535  
 🔗 [alirodrigo.com](https://alirodrigo.com) | [GitHub: @alirodrigo](https://github.com/ali-rodrigo)
 
@@ -14,11 +15,15 @@ url: "/career/"
 
 ## 🧠 Professional Summary
 
-Architect with over 10 years of experience designing scalable and resilient solutions across both on-premise and cloud environments. Strong focus on automation, DevOps practices, clean architecture, and pragmatic design. Passionate about efficiency, direct communication, and black coffee.
+Architect with experience in designing scalable and resilient solutions across both on-premise and cloud environments. Strong focus on automation, DevOps practices, clean architecture, and pragmatic design. Passionate about efficiency, direct communication, and black coffee.
 
 ---
 
 ## 💼 Professional Experience
+
+**2025... | Excelerius**  
+*Solutions Architect*  
+Designed scalable infrastructure solutions, automated cloud environments, and fine-tuning of models.
 
 **2021 – 2024 | Ualá**  
 *DevOps Specialist*  
@@ -41,7 +46,7 @@ Developed PHP microservices, designed RESTful APIs, and integrated DevOps pipeli
 Built CMS solutions and backend systems with an emphasis on modularity and maintainability.
 
 **2014 – 2016 | Linio**  
-*Senior Backend Developer*  
+*Backend Developer*  
 Developed high-traffic backend services and REST APIs for mobile and web platforms.
 
 **2014 | Travelnet**  
@@ -62,9 +67,9 @@ Contributed to backend development for an e-commerce platform.
 
 - **AI Agents:** Codex CLI, DeepSeek-Coder, Manus, Sourcegraph
 - **Foundation Models (LLM/FM):** GPT, Claude, Gemini
-- **Model-as-a-Service (MaaS):** Amazon Bedrock
+- **Model-as-a-Service (MaaS):** AWS Bedrock, AWS Sagemaker
 - **AI Development Environments:** Windsurf, Cursor
-- **Cloud:** AWS (MaaS, Serverless, Compute), Terraform, Serverless Framework
+- **Cloud:** AWS (Serverless, Compute), Terraform, Serverless Framework
 
 ---
 
@@ -80,6 +85,23 @@ Contributed to backend development for an e-commerce platform.
 
 ---
 
+## 👨‍🎓 Certifications AWS
+
+<div class="cert-grid">
+  <figure>
+    <img src="/images/certifications/aws/aws-certified-ai-practitioner.png" alt="AWS Certified Solutions Architect – Associate" loading="lazy" />
+    <figcaption>AWS Certified AI Practitioner</figcaption>
+  </figure>
+  <figure>
+    <img src="/images/certifications/aws/aws-certified-cloud-practitioner.png" alt="AWS Certified Solutions Architect – Professional" loading="lazy" />
+    <figcaption>AWS Certified Cloud Practitioner</figcaption>
+  </figure>
+</div>
+
+###  WIP: AWS Solutions Architect Professional (SAP-C02)  
+
+---
+
 ## 🌱 Personal Projects
 
 **[alirodrigo.com](https://alirodrigo.com)**  
@@ -89,8 +111,8 @@ Personal website and technical blog covering photography, software architecture,
 
 ## 🎓 Education
 
-- **Bachelor's in Computer Engineering – ITTLA**  
-- **Cinematography – Escuela Veracruzana de Cine Luis Buñuel**
+- **2009 - 2013 Bachelor's in Computer Engineering – ITTLA**  
+- **2023 - 2024 Cinematography – Escuela Veracruzana de Cine Luis Buñuel**
 
 ---
 

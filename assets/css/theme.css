@@ -162,3 +162,30 @@ h1 {
     gap: 0.5rem;
   }
 }
+
+.cert-grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  align-items: start;
+  justify-items: center;
+  margin-top: .5rem;
+}
+
+.cert-grid figure{
+  margin:0;
+  text-align:center;
+}
+
+.cert-grid img{
+  max-width: 220px;     /* ajusta el tamaño visible */
+  width: 100%;
+  height: auto;
+}
+
+.cert-grid figcaption{
+  margin-top: .4rem;
+  font-size: .9rem;
+  color: var(--text-color);
+  opacity: .85;
+}
