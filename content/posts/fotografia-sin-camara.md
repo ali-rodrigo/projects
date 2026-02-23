@@ -14,7 +14,7 @@ tags:
 - **φῶς (phōs / photós)** → *luz*
 - **γραφή (graphé)** → *escritura, dibujo, representación*
 
-> *“No quiero explicar algo. Solo quiero mostrar algo.”*
+> *“No intento encontrarme a mí mismo en lo que “disparo”, pero tal vez quiero ver la posición del mundo en la que estoy.”*
 >
 > - **Daido Moriyama**
 
@@ -42,26 +42,19 @@ Con todo esto entendí que la función básica de hacer fotografías se reducía
 
 Desde ese entonces me sitúo en algún lado —como un mirador, una ventana o algún rincón de cualquier lugar interesante a mi mirar, de forma pausada y contemplativa— y recolecto ese recuerdo en mi mente. Que, si bien esa es la función de una cámara al guardar la foto en una memoria SD, y que a su vez esa cámara la guardas en una maleta; y que a su vez esa maleta en un armario o librero para así olvidarla… prefiero llevarla conmigo a todas partes y que, al conocerte, en vez de explicarte lo que vi y, si es posible, invitarte a un viaje para hacer fotografías sin cámara.
 
-Musica para acompañar este post:
+**Musica para acompañar este post:**  
+[From the Beginning - Emerson, Lake & Palmer](https://open.spotify.com/track/1rw12PalmC8IDoygHT3fm1?si=6ce698b5cd434b82)  
+[The Forest - The Cure](https://open.spotify.com/track/00Amd2EiGo17YoZyOjk3VV?si=8dc96499e83d4dad)  
+[Rock the House - Gorillaz](https://open.spotify.com/track/0UQNHlrHiz19Htk7YTLVe5?si=2ff16b51ac954985)  
+[Immersità - Andrea Laszlo De Simone](https://open.spotify.com/track/0kYQPSgdGDJ8nhaXMjqhSu?si=b5c26e9cd26d44c5)  
+[Red Hands - The Dear Hunter](https://open.spotify.com/track/3ho676UrO1qCIY0gKHs8kN?si=b3e024e3a7a5426f)  
+[el paso (with Cuco) - Estevie](https://open.spotify.com/track/7HcQBE9ta9PGy54XbYr3dt?si=069f885b5e5f4953)  
+[Laylow - My Morning Jacket](https://open.spotify.com/track/4fikCVxSddXyT4o29KI5id?si=175c513d42834f01)  
+[I Know How To Speak - Manchester Orchestra](https://open.spotify.com/track/4G9aoDV0KAsAYqTEKY53BF?si=75c0e7c1944d48ab)  
 
-[From the Beginning - Emerson, Lake & Palmer](https://open.spotify.com/track/1rw12PalmC8IDoygHT3fm1?si=6ce698b5cd434b82)
-
-[The Forest - The Cure](https://open.spotify.com/track/00Amd2EiGo17YoZyOjk3VV?si=8dc96499e83d4dad)
-
-[Rock the House - Gorillaz](https://open.spotify.com/track/0UQNHlrHiz19Htk7YTLVe5?si=2ff16b51ac954985)
-
-[Immersità - Andrea Laszlo De Simone](https://open.spotify.com/track/0kYQPSgdGDJ8nhaXMjqhSu?si=b5c26e9cd26d44c5)
-
-[Red Hands - The Dear Hunter](https://open.spotify.com/track/3ho676UrO1qCIY0gKHs8kN?si=b3e024e3a7a5426f)
-
-[el paso (with Cuco) - Estevie](https://open.spotify.com/track/7HcQBE9ta9PGy54XbYr3dt?si=069f885b5e5f4953)
-
-[Laylow - My Morning Jacket](https://open.spotify.com/track/4fikCVxSddXyT4o29KI5id?si=175c513d42834f01)
-
-[I Know How To Speak - Manchester Orchestra](https://open.spotify.com/track/4G9aoDV0KAsAYqTEKY53BF?si=75c0e7c1944d48ab)
-
-*Y para los curiosos que llegaron hasta acá, este fue el lugar donde aquel día El Damian y El Ali acamparon:*
-
-![Texto alternativo](/images/post_3/post_3-1.jpeg "El Damian Contemplativo")
+*Este fue el lugar donde aquel día El Damian y El Ali acamparon:*
+![El Damian Contemplativo](/images/post_3/post_3-1.jpeg "El Damian Contemplativo")
+**RICOH GR III HDF**  
+f/4.5 | 1/320 | ISO 400 | Negative Film*
 
 **Fotografias: ALI RODRIGO*
