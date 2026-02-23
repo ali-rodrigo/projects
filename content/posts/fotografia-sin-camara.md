@@ -9,9 +9,16 @@ tags:
    - trip
 ---
 
-## Hola de nuevo y gracias por leer esto que escribí para ti
+## Fotografía
 
- Muchas cosas han pasado desde la última entrada del blog. Andaba dándome vueltas y recopilando fotografías; eso tomó un tiempo y valió mucho la pena, así que ha llegado el momento de detenerme a escribir un poco.
+- **φῶς (phōs / photós)** → *luz*
+- **γραφή (graphé)** → *escritura, dibujo, representación*
+
+> *“No quiero explicar algo. Solo quiero mostrar algo.”*
+>
+> - **Daido Moriyama**
+
+Hola de nuevo y gracias por leer esto que escribí para ti. Muchas cosas han pasado desde la última entrada del blog. Andaba dándome vueltas y recopilando fotografías; eso tomó un tiempo y valió mucho la pena, así que ha llegado el momento de detenerme a escribir un poco.
 
 Por cierto, antes de seguir, puedo comentarles que estoy en unas tierras hermosas de lo que antes se llamaba La República de la Nueva Granada, justo en la capital del Valle del Cauca, a aproximadamente 2,500 km de altura sobre el nivel del mar, a una temperatura promedio de 25 grados Celsius. Me gusta este tipo de temperaturas porque puedo andar con ropa ligera y caminar bajo un bonito sol, si es que las cortinas de agua lo dejan salir un rato; porque, si no lo hacen, estas empapan las calles y humedecen las paredes terracota de los altísimos multifamiliares.
 
@@ -27,7 +34,7 @@ En todas aquellas formas tenía que “explicarle cosas” y, hasta ahí, solo e
 
 Aunque la intención de “explicar” es muy bonita y todo, me hacía sentir como cuando me toca contar un sueño: que al ir construyendo la historia ya no suena tan emocionante como yo en plena pesadilla; y ese algo no me convencía del todo.
 
-Así pasó el tiempo, y esa pieza que no me cuadraba se fue ajustando en una conversación que tuve con el Damián en Peña de Lobos, cuando él me pidió por la mañana, después de haber acampado con un mendigo frío, que le explicara qué era la resolución en una cámara. Y como a mí me encanta explicar cosas, empezamos por explayarnos en una charla de un montón de temas y más temas, pasando por muchas definiciones y, poco a poco, esa plática nos empujó a llevar a la praxis el título de este post.
+Así pasó el tiempo, y esa pieza que no me cuadraba se fue ajustando en una conversación que tuve con el Damián en [Peña de Lobos](https://maps.app.goo.gl/Ao2DCPwU9vxcqjpG7), cuando él me pidió por la mañana, después de haber acampado con un mendigo frío, que le explicara qué era la resolución en una cámara. Y como a mí me encanta explicar cosas, empezamos por explayarnos en una charla de un montón de temas y más temas, pasando por muchas definiciones y, poco a poco, esa plática nos empujó a llevar a la praxis el título de este post.
 
 Recuerdo que le dije: “Ven, wey, párate ahí y ve esto; ahora imagínate un rectángulo blanco y mira a través de él, donde te indiqué”. Y justo ahí estaba la fotografía: una composición que se formaba orgánicamente y que estimulaba nuestra vista con millones de fotones que pasaban por cada uno de nuestros ojos y que eran transmitidos por el nervio óptico directo a nuestros cerebros para formar colores, captar aromas y sentir el viento; cada uno de nuestros otros sentidos coordinados para que la vista pudiera ser la protagonista en ese momento de atención.
 
