@@ -189,3 +189,9 @@ h1 {
   color: var(--text-color);
   opacity: .85;
 }
+
+.content img {
+    margin: 20px 0 0 0;
+    max-width: 100%;
+    height: auto;
+}
