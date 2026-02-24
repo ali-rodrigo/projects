@@ -11,12 +11,11 @@ tags:
 
 ## Fotografía
 
-- **φῶς (phōs / photós)** → *luz*
-- **γραφή (graphé)** → *escritura, dibujo, representación*
+**φῶς (phōs / photós)** → *luz*  
+**γραφή (graphé)** → *escritura, dibujo, representación*  
 
-> *“No intento encontrarme a mí mismo en lo que “disparo”, pero tal vez quiero ver la posición del mundo en la que estoy.”*
->
-> - **Daido Moriyama**
+> *“No intento encontrarme a mí mismo en lo que “disparo”, pero tal vez quiero ver la posición del mundo en la que estoy.”*  
+> **Daido Moriyama**
 
 Hola de nuevo y gracias por leer esto que escribí para ti. Muchas cosas han pasado desde la última entrada del blog. Andaba dándome vueltas y recopilando fotografías; eso tomó un tiempo y valió mucho la pena, así que ha llegado el momento de detenerme a escribir un poco.
 
